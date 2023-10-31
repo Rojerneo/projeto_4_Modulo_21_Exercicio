@@ -1,0 +1,80 @@
+@use 'variaveis';
+
+.hero {
+
+    &__container {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+
+        h2 {
+            text-align: center;
+            padding: 24px;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        p {
+            margin-bottom: 16px;
+        }
+
+        &__main {
+            display: flex;
+            margin-bottom: 24px;
+        }
+
+        &__about {
+            padding-left: 24px;
+            
+            h3 {
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    .show__tabs {
+        text-align: center;
+        margin: 0 auto;
+
+        &__button {
+            color: variaveis.$corDosTitulos;
+            background-color: transparent;
+            border: none;
+            font-size: 22px;
+            font-weight: bold;
+            padding: 8px 16px;
+            margin: 24px 8px;
+            cursor: pointer;
+
+            &--is-active {
+                border-bottom: 3px solid variaveis.$corDosTitulos;
+            }
+        }
+    }
+
+    &__list {
+        list-style: none;
+        display: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 24px;
+
+        &--is-active {
+            display: grid;
+        }
+
+        &__item {
+            text-align: center;
+
+            p {
+                margin-top: 12px;
+            }
+        }
+    }
+}

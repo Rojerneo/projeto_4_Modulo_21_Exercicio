@@ -4,9 +4,209 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interestelar</title>
-    <link rel="stylesheet" href="./dist/styles/main.css">
+    <link rel="stylesheet" href="./dist/styles/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Sometype+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Interestelar</h1>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="title--big">Interestelar</h1>
+            <nav class="header__menu">
+                <a href="#" class="header__menu__link">Alugar</a>
+                <a href="#" class="header__menu__link">Assistir</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__container">
+            <h2 class="title--small">Mergulhe nessa aventura épica</h2>
+            <div class="hero__container__main">
+                <div>
+                    <img src="./dist/images/poster/poster.jpg" alt="">
+                </div>
+                <div class="hero__container__about">
+                <h3>Sinopse</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatibus beatae porro quam vero voluptate ea. Rem consequuntur ipsa quae possimus, maxime fugit nesciunt eius saepe, ea hic sequi provident!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae excepturi sit commodi praesentium animi, autem nemo quam illum, atque cumque asperiores numquam ratione officiis. Eum, voluptas! Omnis consectetur accusantium quibusdam?</p>
+                </div>
+            </div>
+            <div class="hero__container__options">
+                <nav class="show__tabs">
+                    <button data-tab-button="alugue" class="show__tabs__button show__tabs__button--is-active">Alugue</button>
+                    <button data-tab-button="compre" class="show__tabs__button">Compre</button>
+                </nav>
+                <ul data-tab-id="alugue" class="hero__list hero__list--is-active">
+                    <li class="hero__list__item">
+                        <button type="button" class="button--primary">SD</button>
+                        <span class="text--big">R$ 16,90</span>
+                        <p class="text--small">
+                            Ideal para telas pequenas
+                        </p>
+                    </li>
+                    <li class="hero__list__item">
+                        <button type="button" class="button--primary">HD</button>
+                        <span class="text--big">R$ 24,90</span>
+                        <p class="text--small">
+                            Ideal para telas médias
+                        </p>
+                    </li>
+                    <li class="hero__list__item">
+                        <button type="button" class="button--primary">Full HD</button>
+                        <span class="text--big">R$ 29,90</span>
+                        <p class="text--small">
+                            Melhor relação Custo x Benefício
+                        </p>
+                    </li>
+                    <li class="hero__list__item">
+                        <button type="button" class="button--primary">4K HDR</button>
+                        <span class="text--big">R$ 34,90</span>
+                        <p class="text--small">
+                            Qualidade máxima, alta definição com HDR*
+                        </p>
+                    </li>
+                </ul>
+                <ul data-tab-id="compre" class="hero__list">
+                    <li class="hero__list__item">
+                        <button type="button" class="button--secondary">SD</button>
+                        <span class="text--big">R$ 34,90</span>
+                        <p class="text--small">
+                            Ideal para telas pequenas
+                        </p>
+                    </li>
+                    <li class="hero__list__item">
+                        <button type="button" class="button--secondary">HD</button>
+                        <span class="text--big">R$ 39,90</span>
+                        <p class="text--small">
+                            Ideal para telas médias
+                        </p>
+                    </li>
+                    <li class="hero__list__item">
+                        <button type="button" class="button--secondary">Full HD</button>
+                        <span class="text--big">R$ 44,90</span>
+                        <p class="text--small">
+                            Melhor relação Custo x Benefício
+                        </p>
+                    </li>
+                    <li class="hero__list__item">
+                        <button type="button" class="button--secondary">4K HDR</button>
+                        <span class="text--big">R$ 59,90</span>
+                        <p class="text--small">
+                            Qualidade máxima, alta definição com HDR*
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="highlights">
+        <div class="highlights__container">
+            <h2>Galeria de Imagens</h2>
+        </div>
+        <div class="highlights__gallery highlights__container">
+            <ul class="highlights__gallery__list">
+                <li class="highlights__gallery__list__item">
+                    <img src="./dist/images/scenes/585616.png" alt="">
+                </li>
+                <li class="highlights__gallery__list__item">
+                    <img src="./dist/images/scenes/interestelar-trailer-subtitulado.jpg" alt="">
+                </li>
+                <li class="highlights__gallery__list__item">
+                    <img src="./dist/images/scenes/OIP (1).jpeg" alt="">
+                </li>
+                <li class="highlights__gallery__list__item">
+                    <img src="./dist/images/scenes/OIP.jpeg" alt="">
+                </li>
+                <li class="highlights__gallery__list__item">
+                    <img src="./dist/images/scenes/R (3).jpeg" alt="">
+                </li>
+                <li class="highlights__gallery__list__item">
+                    <img src="./dist/images/scenes/R.jpeg" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="casting">
+        <div class="casting__container">
+            <h2>Elenco</h2>
+        </div>
+        <div class="casting__gallery casting__container">
+            <ul class="casting__gallery__list">
+                <li class="casting__gallery__list__item">
+                    <img src="./dist/images/casting/th.jpeg" alt="">
+                    <h3>Matthew McConaughey</h3>
+                    <p>"Cooper"</p>
+                </li>
+                <li class="casting__gallery__list__item">
+                    <img src="./dist/images/casting/th (2).jpeg" alt="">
+                    <h3>Jessica Chastain</h3>
+                    <p>"Murph"</p>
+                <li class="casting__gallery__list__item">
+                    <img src="./dist/images/casting/th (1).jpeg" alt="">
+                    <h3>Anne Hathaway</h3>
+                    <p>"Brand"</p>
+                </li>
+                <li class="casting__gallery__list__item">
+                    <img src="./dist/images/casting/th (3).jpeg" alt="">
+                    <h3>Mackenzie Foy</h3>
+                    <p>"Murph (10 anos)"</p>
+                </li>
+                <li class="casting__gallery__list__item">
+                    <img src="./dist/images/casting/th (4).jpeg" alt="">
+                    <h3>Michael Caine</h3>
+                    <p>"Prof. Brand"</p>
+                </li>
+                <li class="casting__gallery__list__item">
+                    <img src="./dist/images/casting/th (6).jpeg" alt="">
+                    <h3>Matt Damon</h3>
+                    <p>"Mann"</p>
+                </li>
+                <li class="casting__gallery__list__item">
+                    <img src="./dist/images/casting/th (7).jpeg" alt="">
+                    <h3>Wes Bentley</h3>
+                    <p>"Doyle"</p>
+                </li>
+                <li class="casting__gallery__list__item">
+                    <img src="./dist/images/casting/th (8).jpeg" alt="">
+                    <h3>John Lithgow</h3>
+                    <p>"Donald"</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="faq__container">
+            <h2 class="title--small">Perguntas Frequentes</h2>
+            <ul class="faq__questions">
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__question text--big"  data-faq-question>
+                        Por quanto tempo o filme ficará disponível na opção Alugar?
+                    </div>
+                    <div class="faq__questions__item__answer">
+                        -Na opção Alugar o filme ficará disponível por 72h e você poderá assistir quantas vezes quiser.
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__question text--big"  data-faq-question>
+                        A resolução interfere no tempo em que o filme ficará disponível?
+                    </div>
+                    <div class="faq__questions__item__answer">
+                        -Não, o tempo de disponbilidade é sempre o mesmo, não importa a opção de resolução escolhida.
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__question text--big"  data-faq-question>
+                        Quanto tempo o filme comprado ficará disponível?
+                    </div>
+                    <div class="faq__questions__item__answer">
+                        -Quando o filme for comprado o acesso é vitalício* e você poderá voltar a vê-lo sempre que quiser.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <script src="./src/main.js"></script>
 </body>
 </html>

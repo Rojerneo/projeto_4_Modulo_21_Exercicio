@@ -1,0 +1,41 @@
+@use 'variaveis';
+
+.header {
+    font-family: 'Sometype Mono', monospace;
+    padding: 24px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: darken($color: variaveis.$corDeFundoGeral, $amount: 2);
+    
+    h1 {
+        color: variaveis.$corDosTitulos;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    &__menu {
+
+        &__link {
+            color: variaveis.$corDosTitulos;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: variaveis.$corDosBotoesPrincipais;
+            padding: 8px 16px;
+            font-size: 18px;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: lighten($color: variaveis.$corDosBotoesPrincipais, $amount: 10);
+            }
+        }
+    }
+
+}
