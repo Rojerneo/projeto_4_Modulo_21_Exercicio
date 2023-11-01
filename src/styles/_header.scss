@@ -2,22 +2,21 @@
 
 .header {
     font-family: 'Sometype Mono', monospace;
-    padding: 24px;
+    padding: 2vh 5.6vw;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: darken($color: variaveis.$corDeFundoGeral, $amount: 2);
+    background-color: darken($color: variaveis.$corDeFundoGeral, $amount: 3);
     
     h1 {
         color: variaveis.$corDosTitulos;
     }
 
-    &__container {
+    &__content {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 960px;
         margin: 0 auto;
     }
     &__menu {
@@ -35,6 +34,20 @@
             &:hover {
                 background-color: lighten($color: variaveis.$corDosBotoesPrincipais, $amount: 10);
             }
+
+            &--white-button {
+                background-color: variaveis.$corBotaoWhite;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 8px 16px;
+                font-size: 18px;
+                border-radius: 5px;
+
+                &:hover {
+                    background-color: lighten($color: variaveis.$corBotaoWhite, $amount: 10);
+                }
+            }
+
         }
     }
 

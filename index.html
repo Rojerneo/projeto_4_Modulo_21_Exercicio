@@ -11,100 +11,98 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__container">
+        <div class="header__content">
             <h1 class="title--big">Interestelar</h1>
             <nav class="header__menu">
                 <a href="#" class="header__menu__link">Alugar</a>
-                <a href="#" class="header__menu__link">Assistir</a>
+                <a href="#" class="header__menu__link--white-button">Assistir</a>
             </nav>
         </div>
     </header>
     <section class="hero">
-        <div class="hero__container">
-            <h2 class="title--small">Mergulhe nessa aventura épica</h2>
-            <div class="hero__container__main">
-                <div>
-                    <img src="./dist/images/poster/poster.jpg" alt="">
-                </div>
-                <div class="hero__container__about">
-                <h3>Sinopse</h3>
+        <h2 class="title">Mergulhe nessa aventura épica</h2>
+        <div class="hero__content">
+            <div class="hero__content__main">
+                <img src="./dist/images/poster/poster.jpg" alt="">
+                <div class="hero__content__about">
+                    <h3 class="title--small">Sinopse</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatibus beatae porro quam vero voluptate ea. Rem consequuntur ipsa quae possimus, maxime fugit nesciunt eius saepe, ea hic sequi provident!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae excepturi sit commodi praesentium animi, autem nemo quam illum, atque cumque asperiores numquam ratione officiis. Eum, voluptas! Omnis consectetur accusantium quibusdam?</p>
                 </div>
             </div>
-            <div class="hero__container__options">
-                <nav class="show__tabs">
-                    <button data-tab-button="alugue" class="show__tabs__button show__tabs__button--is-active">Alugue</button>
-                    <button data-tab-button="compre" class="show__tabs__button">Compre</button>
-                </nav>
-                <ul data-tab-id="alugue" class="hero__list hero__list--is-active">
-                    <li class="hero__list__item">
-                        <button type="button" class="button--primary">SD</button>
-                        <span class="text--big">R$ 16,90</span>
-                        <p class="text--small">
-                            Ideal para telas pequenas
-                        </p>
-                    </li>
-                    <li class="hero__list__item">
-                        <button type="button" class="button--primary">HD</button>
-                        <span class="text--big">R$ 24,90</span>
-                        <p class="text--small">
-                            Ideal para telas médias
-                        </p>
-                    </li>
-                    <li class="hero__list__item">
-                        <button type="button" class="button--primary">Full HD</button>
-                        <span class="text--big">R$ 29,90</span>
-                        <p class="text--small">
-                            Melhor relação Custo x Benefício
-                        </p>
-                    </li>
-                    <li class="hero__list__item">
-                        <button type="button" class="button--primary">4K HDR</button>
-                        <span class="text--big">R$ 34,90</span>
-                        <p class="text--small">
-                            Qualidade máxima, alta definição com HDR*
-                        </p>
-                    </li>
-                </ul>
-                <ul data-tab-id="compre" class="hero__list">
-                    <li class="hero__list__item">
-                        <button type="button" class="button--secondary">SD</button>
-                        <span class="text--big">R$ 34,90</span>
-                        <p class="text--small">
-                            Ideal para telas pequenas
-                        </p>
-                    </li>
-                    <li class="hero__list__item">
-                        <button type="button" class="button--secondary">HD</button>
-                        <span class="text--big">R$ 39,90</span>
-                        <p class="text--small">
-                            Ideal para telas médias
-                        </p>
-                    </li>
-                    <li class="hero__list__item">
-                        <button type="button" class="button--secondary">Full HD</button>
-                        <span class="text--big">R$ 44,90</span>
-                        <p class="text--small">
-                            Melhor relação Custo x Benefício
-                        </p>
-                    </li>
-                    <li class="hero__list__item">
-                        <button type="button" class="button--secondary">4K HDR</button>
-                        <span class="text--big">R$ 59,90</span>
-                        <p class="text--small">
-                            Qualidade máxima, alta definição com HDR*
-                        </p>
-                    </li>
-                </ul>
-            </div>
+        </div>
+        <div class="hero__content__options">
+            <nav class="show__tabs">
+                <button data-tab-button="alugue" class="show__tabs__button show__tabs__button--is-active">Alugue</button>
+                <button data-tab-button="compre" class="show__tabs__button">Compre</button>
+            </nav>
+            <ul data-tab-id="alugue" class="hero__list hero__list--is-active">
+                <li class="hero__list__item">
+                    <button type="button" class="button--primary">SD</button>
+                    <span class="text--big">R$ 16,90</span>
+                    <p class="text--small">
+                        Ideal para telas pequenas
+                    </p>
+                </li>
+                <li class="hero__list__item">
+                    <button type="button" class="button--primary">HD</button>
+                    <span class="text--big">R$ 24,90</span>
+                    <p class="text--small">
+                        Ideal para telas médias
+                    </p>
+                </li>
+                <li class="hero__list__item">
+                    <button type="button" class="button--primary">Full HD</button>
+                    <span class="text--big">R$ 29,90</span>
+                    <p class="text--small">
+                        Melhor relação Custo x Benefício
+                    </p>
+                </li>
+                <li class="hero__list__item">
+                    <button type="button" class="button--primary">4K HDR</button>
+                    <span class="text--big">R$ 34,90</span>
+                    <p class="text--small">
+                        Qualidade máxima, alta definição com HDR*
+                    </p>
+                </li>
+            </ul>
+            <ul data-tab-id="compre" class="hero__list">
+                <li class="hero__list__item">
+                    <button type="button" class="button--secondary">SD</button>
+                    <span class="text--big">R$ 34,90</span>
+                    <p class="text--small">
+                        Ideal para telas pequenas
+                    </p>
+                </li>
+                <li class="hero__list__item">
+                    <button type="button" class="button--secondary">HD</button>
+                    <span class="text--big">R$ 39,90</span>
+                    <p class="text--small">
+                        Ideal para telas médias
+                    </p>
+                </li>
+                <li class="hero__list__item">
+                    <button type="button" class="button--secondary">Full HD</button>
+                    <span class="text--big">R$ 44,90</span>
+                    <p class="text--small">
+                        Melhor relação Custo x Benefício
+                    </p>
+                </li>
+                <li class="hero__list__item">
+                    <button type="button" class="button--secondary">4K HDR</button>
+                    <span class="text--big">R$ 59,90</span>
+                    <p class="text--small">
+                        Qualidade máxima, alta definição com HDR*
+                    </p>
+                </li>
+            </ul>
         </div>
     </section>
     <section class="highlights">
-        <div class="highlights__container">
-            <h2>Galeria de Imagens</h2>
+        <div class="highlights__content">
+            <h2 class="title">Galeria de Imagens</h2>
         </div>
-        <div class="highlights__gallery highlights__container">
+        <div class="highlights__gallery highlights__content">
             <ul class="highlights__gallery__list">
                 <li class="highlights__gallery__list__item">
                     <img src="./dist/images/scenes/585616.png" alt="">
@@ -128,10 +126,10 @@
         </div>
     </section>
     <section class="casting">
-        <div class="casting__container">
-            <h2>Elenco</h2>
+        <div class="casting__content">
+            <h2 class="title">Elenco</h2>
         </div>
-        <div class="casting__gallery casting__container">
+        <div class="casting__gallery casting__content">
             <ul class="casting__gallery__list">
                 <li class="casting__gallery__list__item">
                     <img src="./dist/images/casting/th.jpeg" alt="">
@@ -176,15 +174,15 @@
         </div>
     </section>
     <section class="faq">
-        <div class="faq__container">
-            <h2 class="title--small">Perguntas Frequentes</h2>
+        <div class="faq__content">
+            <h2 class="title">Perguntas Frequentes</h2>
             <ul class="faq__questions">
                 <li class="faq__questions__item">
                     <div class="faq__questions__item__question text--big"  data-faq-question>
                         Por quanto tempo o filme ficará disponível na opção Alugar?
                     </div>
                     <div class="faq__questions__item__answer">
-                        -Na opção Alugar o filme ficará disponível por 72h e você poderá assistir quantas vezes quiser.
+                        - Na opção Alugar o filme ficará disponível por 72h e você poderá assistir quantas vezes quiser.
                     </div>
                 </li>
                 <li class="faq__questions__item">
@@ -192,7 +190,7 @@
                         A resolução interfere no tempo em que o filme ficará disponível?
                     </div>
                     <div class="faq__questions__item__answer">
-                        -Não, o tempo de disponbilidade é sempre o mesmo, não importa a opção de resolução escolhida.
+                        - Não, o tempo de disponbilidade é sempre o mesmo, não importa a opção de resolução escolhida.
                     </div>
                 </li>
                 <li class="faq__questions__item">
@@ -200,12 +198,48 @@
                         Quanto tempo o filme comprado ficará disponível?
                     </div>
                     <div class="faq__questions__item__answer">
-                        -Quando o filme for comprado o acesso é vitalício* e você poderá voltar a vê-lo sempre que quiser.
+                        - Quando o filme for comprado o acesso é vitalício* e você poderá voltar a vê-lo sempre que quiser.
                     </div>
                 </li>
             </ul>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <img src="./dist/images/backgrounds/OIP-min.jpeg" alt="">
+            <ul class="footer__content__list">
+                <li class="footer__content__list__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icons/globe.svg" alt="">
+                        <select class="text--small">
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__content__list__item">
+                    <a class="footer__content__list__item__link text--small" href="#">Termos e condições de uso</a>
+                </li>
+                <li class="footer__content__list__item">
+                    <a class="footer__content__list__item__link text--small" href="#">Política de privacidade</a>
+                </li>
+                <li class="footer__content__list__item">
+                    <a class="footer__content__list__item__link text--small" href="#">Proteção de dados no Brasil</a>
+                </li>
+                <li class="footer__content__list__item">
+                    <a class="footer__content__list__item__link text--small" href="#">Anúncios personalizados</a>
+                </li>
+                <li class="footer__content__list__item">
+                    <a class="footer__content__list__item__link text--small" href="#">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__content__list__item">
+                    <a class="footer__content__list__item__link text--small" href="#">Ajuda</a>
+                </li>
+            </ul>
+            <p class="text--small">® 2023 Interstellar. Todos os direitos reservados. Serviço de aluguel e venda. Conteúdo sujeito a disponibilidade.</p>
+            <p class="text--small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolores tempora exercitationem recusandae a, dolor facere fugit blanditiis quis, ab quas assumenda quos id itaque quod necessitatibus minima voluptatum explicabo.</p>
+        </div>
+    </footer>
     
     <script src="./src/main.js"></script>
 </body>

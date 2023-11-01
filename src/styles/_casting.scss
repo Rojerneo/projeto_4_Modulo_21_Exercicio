@@ -1,11 +1,9 @@
 @use 'variaveis';
 
 .casting {
-    padding-top: 75px;
+    padding: 2vw 5.6vw;
 
-    &__container {
-        max-width: 960px;
-        width: 100%;
+    &__content {
         margin: 0 auto;
         text-align: center;
 
@@ -24,7 +22,7 @@
                 list-style: none;
 
                 img {
-                    width: 100%;
+                    width: 80%;
                     border-radius: 10px;
                 }
 
