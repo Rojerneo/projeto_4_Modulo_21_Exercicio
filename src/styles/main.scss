@@ -17,6 +17,7 @@ body {
     background-color: variaveis.$corDeFundoGeral;
     color: variaveis.$corDosTextos;
     font-family: 'Raleway', sans-serif;
+    background-image: url(../images/backgrounds/r.jpeg);
 }
 
 @mixin text($fontSize: 16px) {

@@ -35,6 +35,10 @@
                 background-color: lighten($color: variaveis.$corDosBotoesPrincipais, $amount: 10);
             }
 
+            &--hidden-button {
+                display: none;
+            }
+
             &--white-button {
                 background-color: variaveis.$corBotaoWhite;
                 text-decoration: none;
