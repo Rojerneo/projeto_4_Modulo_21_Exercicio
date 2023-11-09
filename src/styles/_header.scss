@@ -46,13 +46,20 @@
                 padding: 8px 16px;
                 font-size: 18px;
                 border-radius: 5px;
+                color: variaveis.$corDeFundoGeral;
 
                 &:hover {
                     background-color: lighten($color: variaveis.$corBotaoWhite, $amount: 10);
                 }
             }
 
+            @media (max-width: 768px) {
+                font-size: 10px;
+                display: block;
+                text-align: center;
+                margin-bottom: 8px;
+                padding: 4px 8px;
+            }
         }
     }
-
 }

@@ -92,3 +92,29 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .title--big {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .title--small {
+        font-size: 20px;
+    }
+
+    .text--big {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .text--small {
+        font-size: 12px;
+    }
+}
+
